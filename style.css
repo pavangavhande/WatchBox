@@ -438,7 +438,7 @@ footer {
   }
 
   .content {
-    height: 97vh;
+    height: 100vh;
     width: 101%;
     display: block;
     display: flex;
@@ -636,5 +636,52 @@ footer {
   .links img {
     height: 3vh;
     width: 12%;
+  }
+}
+
+@media only screen and (max-width: 375px){
+
+  .upbanner {
+    width: 77%;
+  }
+  .content {
+    height: 100vh;
+  }
+  .links {
+    gap:4vw;
+  }
+  .f1 p{
+    font-size: 0.9rem;
+   text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px){
+
+ .brand img{
+  height: 46vh;
+ }
+ .butt {
+  width: 90%;
+  gap: 1vw;
+ }
+ .butt button{
+  padding: 10px 10px;
+ }
+ .butt .but1{
+  margin-right: 0vh;
+ }
+}
+@media only screen and (max-width: 336px){
+  .butt{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 390px){
+  .upbanner{
+    width: 76%;
+  }
+  .info {
+    width: 80%;
   }
 }
